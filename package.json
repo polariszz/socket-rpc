@@ -1,6 +1,6 @@
 {
   "name": "socket-rpc",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simple library to implement rpc in js using socket.io.",
   "main": "./dist/index.js",
   "scripts": {
