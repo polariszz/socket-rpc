@@ -1,0 +1,34 @@
+{
+  "name": "socket-rpc",
+  "version": "1.0.0",
+  "description": "A simple library to implement rpc in js using socket.io.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --presets es2015,stage-2 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polariszz/socket-rpc.git"
+  },
+  "keywords": [
+    "rpc",
+    "js",
+    "socket.io"
+  ],
+  "author": "polariszz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polariszz/socket-rpc/issues"
+  },
+  "homepage": "https://github.com/polariszz/socket-rpc#readme",
+  "dependencies": {
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0"
+  }
+}
